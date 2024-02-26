@@ -1,0 +1,85 @@
+.main_index {
+  display: flex;
+  flex-direction: column;
+}
+
+/* 面包屑导航 */
+.el-tag, .el-tooltip__popper {
+  border-radius: 0;
+}
+
+/* 搜索 */
+.el-row, .el-col{
+  margin-top: 6px;
+}
+
+.el-col {
+  text-align: center;
+  line-height: 54px;
+}
+
+.el-row .search .el-button:nth-child(1) {
+  background-color: #27aeaa;
+  color: #fff;
+  height: 32px;
+}
+
+.el-row .input_content {
+  display: flex;
+}
+
+.el-row .input_content > span {
+  width: 110px;
+  line-height: 54px;
+  font-size: 14px;
+}
+
+/* 按钮 */
+.el-row {
+  display: flex;
+}
+
+.export-excel-wrapper {
+  padding-left: 10px;
+}
+
+.el-button {
+  height: 32px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 10px;
+}
+
+i {
+  padding-right: 3px;
+}
+
+/* 表格 */
+.el-table__header {
+  background-color: #f8f8f8;
+}
+
+.el-table {
+  margin-top: 12px;
+}
+
+.el-table >>> .cell {
+  font-size: 13px;
+  text-align: center;
+  height: 38px;
+  line-height: 38px;
+}
+
+.el-pagination {
+  margin-top: 20px;
+  margin-left: 70%;
+}
+
+.el-table >>> th.el-table__cell {
+  padding: 9px 0;
+  background-color: #eaedf1;
+}
+
+.demo-form-inline {
+  padding-top: 13px;
+}
